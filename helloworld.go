@@ -27,7 +27,7 @@ func HandleLambdaEvent(event MyEvent) (MyResponse, error) {
 func main() {
 	// Instantiate Thundra Agent with Trace Support
 	t := thundra.NewBuilder().
-			AddPlugin(&trace.Trace{}).
+			AddPlugin(trace.New()).
 			SetAPIKey(/*TODO login https://console.thundra.io to get your APIKey*/).
 			Build()
 
