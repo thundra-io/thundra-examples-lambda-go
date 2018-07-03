@@ -2,7 +2,7 @@
 
 This is a simple example to trace your lambda go functions with [Thundra](https://www.thundra.io/).
 
-If you haven't done already start by installing **serverless** by:
+If you haven't done already start installing **serverless framework** by:
 ```bash
 npm install serverless -g
 ```
